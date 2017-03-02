@@ -15,8 +15,13 @@ h2 {
   font-size: 26px;
 }
 
-/* line 7, ../sass/layout/_base.scss */
-h3 {
+/* line 10, ../sass/layout/_base.scss */
+h4 {
+  font-size: 24px;
+}
+
+/* line 13, ../sass/layout/_base.scss */
+h6 {
   font-size: 18px;
 }
 
@@ -24,6 +29,8 @@ h3 {
 .container {
   margin-right: auto;
   margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media (min-width: 768px) {
@@ -48,12 +55,22 @@ h3 {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 28, ../sass/layout/_grid.scss */
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 /* line 32, ../sass/layout/_grid.scss */
 .col, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* line 38, ../sass/layout/_grid.scss */
@@ -1195,6 +1212,7 @@ header h2 {
 }
 /* line 11, ../sass/layout/partials/_haeder.scss */
 header input[type="button"] {
+  font-family: MyriadProRegular, sans-serif;
   text-transform: uppercase;
   display: block;
   padding: 25px 90px;
@@ -1204,4 +1222,41 @@ header input[type="button"] {
   -moz-border-radius: 4px;
   border-radius: 4px;
   color: #fff;
+}
+
+/* line 1, ../sass/layout/partials/_services.scss */
+.services {
+  background-color: #17c2a4;
+  color: #fff;
+  text-align: center;
+  font-family: MyriadProRegular, sans-serif;
+}
+/* line 6, ../sass/layout/partials/_services.scss */
+.services h1 {
+  margin: 120px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 10, ../sass/layout/partials/_services.scss */
+.services h4 {
+  margin: 60px auto 20px auto;
+  text-transform: uppercase;
+}
+/* line 15, ../sass/layout/partials/_services.scss */
+.services h6 {
+  margin: 20px auto 80px auto;
+  width: 610px;
+}
+/* line 19, ../sass/layout/partials/_services.scss */
+.services span {
+  padding: 0 5px 15px 5px;
+  border-bottom: 3px solid #14a58c;
+}
+/* line 24, ../sass/layout/partials/_services.scss */
+.services p {
+  margin-bottom: 130px;
+}
+/* line 27, ../sass/layout/partials/_services.scss */
+.services .services-icon {
+  height: 160px;
+  margin: 0 0 20px 0;
 }
