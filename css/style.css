@@ -1260,3 +1260,63 @@ header input[type="button"] {
   height: 160px;
   margin: 0 0 20px 0;
 }
+
+/* line 1, ../sass/layout/partials/_team.scss */
+.team {
+  background-color: #fff;
+  color: #3c4761;
+  text-align: center;
+  font-family: MyriadProRegular, sans-serif;
+}
+/* line 6, ../sass/layout/partials/_team.scss */
+.team h1 {
+  margin: 120px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 10, ../sass/layout/partials/_team.scss */
+.team h4 {
+  margin: 37px auto 10px auto;
+  text-transform: uppercase;
+}
+/* line 16, ../sass/layout/partials/_team.scss */
+.team h6 {
+  margin: 20px auto 80px auto;
+  width: 610px;
+}
+/* line 20, ../sass/layout/partials/_team.scss */
+.team span {
+  padding: 0 5px 15px 5px;
+  border-bottom: 3px solid #14a58c;
+}
+/* line 26, ../sass/layout/partials/_team.scss */
+.team p:last-child {
+  margin: 0 15px 130px 15px;
+}
+/* line 32, ../sass/layout/partials/_team.scss */
+.team .team-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #3c4761;
+}
+/* line 39, ../sass/layout/partials/_team.scss */
+.team .team-ured {
+  color: #55c2e9;
+  margin: 0 0 30px 0;
+  text-transform: capitalize;
+}
+/* line 45, ../sass/layout/partials/_team.scss */
+.team .social {
+  margin: 20px 0 30px 0;
+}
+/* line 47, ../sass/layout/partials/_team.scss */
+.team .social i {
+  height: 32px;
+  width: 32px;
+  font-size: 20px;
+  padding-top: 5px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #643a79;
+}
