@@ -1,0 +1,22 @@
+header {
+  background-color: $color-header-bgr;
+  color: $white;
+  h2 {
+    font-family: MyriadProRegular, sans-serif;
+    font-size: 42.12px;
+    margin: 132px auto 0 auto;
+    text-align: center;
+    width: 900px;
+  }
+  input[type="button"]{
+    text-transform: uppercase;
+    display: block;
+    padding: 25px 90px;
+    background-color: $color-header-btn ;
+    margin: 55px auto 140px auto;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: $white;
+  }
+}
