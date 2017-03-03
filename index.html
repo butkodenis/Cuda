@@ -5,9 +5,13 @@
     <title>Cuda</title>
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+
+    <link  rel="stylesheet" href="css/jQuery-plugin-progressbar.css">
     <link  rel="stylesheet"  href="css/clear.css">
     <link  rel="stylesheet"  href="css/style.css">
-
+    <script src="js/CircularLoader-v1.3.js"></script>
+    <script src="js/jQuery-plugin-progressbar.js"></script>
 </head>
 <body>
 <header>
@@ -91,6 +95,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1>meet our beauteful team</h1>
+                <div class="line"></div>
                 <h6> We are a small team of designers and developers, who help brands with big ideas.</h6>
             </div>
         </div>
@@ -166,6 +171,123 @@
                     <i class="fa fa-envelope" aria-hidden="true"></i>
 
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>we got skills!</h1>
+                <div class="line"></div>
+                <h6> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</h6>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+              <div id="divProgress"></div>
+              <script>
+                  $("#divProgress").circularloader({
+                      backgroundColor: "#ffffff",//background colour of inner circle
+                      fontColor: "#000000",//font color of progress text
+                      fontSize: "40px",//font size of progress text
+                      radius: 80,//radius of circle
+                      progressBarBackground: "#dfe8ed",//background colour of circular progress Bar
+                      progressBarColor: "#30bae7",//colour of circular progress bar
+                      progressBarWidth: 15,//progress bar width
+                      progressPercent: 90,//progress percentage out of 100
+                      progressValue:0,//diplay this value instead of percentage
+                      showText: true,//show progress text or not
+                      //  title: "Any Title",//show header title for the progress bar
+                  });
+              </script>
+
+
+                <h4>web design </h4>
+            </div>
+          <div class="col-md-3">
+                <div class="team-avatar">
+                    <div id="divProgress2"></div>
+                    <script>
+                        $("#divProgress2").circularloader({
+                            backgroundColor: "#ffffff",//background colour of inner circle
+                            fontColor: "#000000",//font color of progress text
+                            fontSize: "40px",//font size of progress text
+                            radius: 80,//radius of circle
+                            progressBarBackground: "#dfe8ed",//background colour of circular progress Bar
+                            progressBarColor: "#d74680",//colour of circular progress bar
+                            progressBarWidth: 15,//progress bar width
+                            progressPercent: 75,//progress percentage out of 100
+                            progressValue:0,//diplay this value instead of percentage
+                            showText: true,//show progress text or not
+                           // title: "Any Title",//show header title for the progress bar
+                        });
+                    </script>
+                </div>
+
+                <h4>html / css </h4>
+            </div>
+          <div class="col-md-3">
+                <div class="team-avatar">
+                    <div id="divProgress3"></div>
+                    <script>
+                        $("#divProgress3").circularloader({
+                            backgroundColor: "#ffffff",//background colour of inner circle
+                            fontColor: "#000000",//font color of progress text
+                            fontSize: "40px",//font size of progress text
+                            radius: 80,//radius of circle
+                            progressBarBackground: "#dfe8ed",//background colour of circular progress Bar
+                            progressBarColor: "#15c7a8",//colour of circular progress bar
+                            progressBarWidth: 15,//progress bar width
+                            progressPercent: 70,//progress percentage out of 100
+                            progressValue:0,//diplay this value instead of percentage
+                            showText: true,//show progress text or not
+                          //  title: "Any Title",//show header title for the progress bar
+                        });
+                    </script>
+                </div>
+
+                <h4>graphic decsign</h4>
+            </div>
+          <div class="col-md-3">
+                <div class="team-avatar">
+                    <div id="divProgress4"></div>
+                    <script>
+                        $("#divProgress4").circularloader({
+                            progressPercent: 60,
+                            backgroundColor: "#ffffff",//background colour of inner circle
+                            fontColor: "#000000",//font color of progress text
+                            fontSize: "40px",//font size of progress text
+                            radius: 80,//radius of circle
+                            progressBarBackground: "#dfe8ed",//background colour of circular progress Bar
+                            progressBarColor: "#eb7d4b",//colour of circular progress bar
+                            progressBarWidth: 15,//progress bar width
+                            speed: 10,
+                            progressvalue: 30,
+                            showText: true
+                        });
+                    </script>
+                </div>
+
+                <h4> ui / ux  </h4>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+<div class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Our portfolio</h1>
+                <div class="line"></div>
+                <h4>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+                    consectetur, adipisci velit, sed quia non numquam</h4>
             </div>
         </div>
     </div>

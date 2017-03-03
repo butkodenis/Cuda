@@ -1306,17 +1306,46 @@ header input[type="button"] {
   margin: 0 0 30px 0;
   text-transform: capitalize;
 }
-/* line 45, ../sass/layout/partials/_team.scss */
+/* line 44, ../sass/layout/partials/_team.scss */
 .team .social {
   margin: 20px 0 30px 0;
 }
-/* line 47, ../sass/layout/partials/_team.scss */
+/* line 46, ../sass/layout/partials/_team.scss */
 .team .social i {
   height: 32px;
   width: 32px;
   font-size: 20px;
   padding-top: 5px;
+  margin-right: 5px;
   color: #fff;
   border-radius: 50%;
   background-color: #643a79;
+}
+/* line 58, ../sass/layout/partials/_team.scss */
+.team .line {
+  border-bottom: 3px solid black;
+  width: 40px;
+  margin: 0 auto;
+}
+
+/* line 1, ../sass/layout/partials/_skills.scss */
+.skills {
+  background-color: #fff;
+  color: #3c4761;
+  text-align: center;
+}
+/* line 6, ../sass/layout/partials/_skills.scss */
+.skills h1 {
+  margin: 120px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 10, ../sass/layout/partials/_skills.scss */
+.skills h4 {
+  margin: 60px auto 20px auto;
+  text-transform: uppercase;
+}
+/* line 15, ../sass/layout/partials/_skills.scss */
+.skills h6 {
+  margin: 20px auto 80px auto;
+  width: 610px;
 }
