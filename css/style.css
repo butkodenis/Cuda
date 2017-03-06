@@ -25,6 +25,13 @@ h6 {
   font-size: 18px;
 }
 
+/* line 17, ../sass/layout/_base.scss */
+.line {
+  border-bottom: 3px solid black;
+  width: 86px;
+  margin: 0 auto;
+}
+
 /* line 1, ../sass/layout/_grid.scss */
 .container {
   margin-right: auto;
@@ -1321,12 +1328,6 @@ header input[type="button"] {
   border-radius: 50%;
   background-color: #643a79;
 }
-/* line 58, ../sass/layout/partials/_team.scss */
-.team .line {
-  border-bottom: 3px solid black;
-  width: 40px;
-  margin: 0 auto;
-}
 
 /* line 1, ../sass/layout/partials/_skills.scss */
 .skills {
@@ -1348,4 +1349,25 @@ header input[type="button"] {
 .skills h6 {
   margin: 20px auto 80px auto;
   width: 610px;
+}
+
+/* line 1, ../sass/layout/partials/_portfolio.scss */
+.portfolio {
+  background-color: #ffdd99;
+  color: #3c4761;
+  text-align: center;
+}
+/* line 6, ../sass/layout/partials/_portfolio.scss */
+.portfolio h1 {
+  margin: 120px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 10, ../sass/layout/partials/_portfolio.scss */
+.portfolio h6 {
+  margin: 20px auto 80px auto;
+  width: 540px;
+}
+/* line 20, ../sass/layout/partials/_portfolio.scss */
+.portfolio .web {
+  display: block;
 }

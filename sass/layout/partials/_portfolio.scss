@@ -1,0 +1,23 @@
+.portfolio {
+  background-color: $color-brg-portfolio;
+  color: $color-team-font;
+  text-align: center;
+  //font-family: MyriadProRegular, sans-serif;
+  h1{
+    margin: 120px 0 0 0;
+    text-transform: uppercase;
+  }
+  h6 {
+    margin: 20px auto 80px auto;
+    width: 540px;
+
+  }
+  .line {
+    //border-bottom: 3px solid black;
+    //width: 40px;
+    //margin: 0 auto;
+  }
+  .web {
+    display: block;
+  }
+}
