@@ -32,6 +32,20 @@ h6 {
   margin: 0 auto;
 }
 
+/* line 22, ../sass/layout/_base.scss */
+input[type="button"] {
+  font-family: MyriadProRegular, sans-serif;
+  text-transform: uppercase;
+  display: block;
+  padding: 25px 90px;
+  background-color: #eb7d4b;
+  margin: 55px auto 140px auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #fff;
+}
+
 /* line 1, ../sass/layout/_grid.scss */
 .container {
   margin-right: auto;
@@ -1217,19 +1231,6 @@ header h2 {
   text-align: center;
   width: 900px;
 }
-/* line 11, ../sass/layout/partials/_haeder.scss */
-header input[type="button"] {
-  font-family: MyriadProRegular, sans-serif;
-  text-transform: uppercase;
-  display: block;
-  padding: 25px 90px;
-  background-color: #eb7d4b;
-  margin: 55px auto 140px auto;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  color: #fff;
-}
 
 /* line 1, ../sass/layout/partials/_services.scss */
 .services {
@@ -1270,7 +1271,7 @@ header input[type="button"] {
 
 /* line 1, ../sass/layout/partials/_team.scss */
 .team {
-  background-color: #fff;
+  background-color: #e7f1f8;
   color: #3c4761;
   text-align: center;
   font-family: MyriadProRegular, sans-serif;
@@ -1370,4 +1371,53 @@ header input[type="button"] {
 /* line 20, ../sass/layout/partials/_portfolio.scss */
 .portfolio .web {
   display: block;
+}
+/* line 23, ../sass/layout/partials/_portfolio.scss */
+.portfolio .apps {
+  display: block;
+}
+/* line 26, ../sass/layout/partials/_portfolio.scss */
+.portfolio .icons {
+  display: block;
+}
+/* line 29, ../sass/layout/partials/_portfolio.scss */
+.portfolio #myList div {
+  display: none;
+}
+
+/* line 1, ../sass/layout/partials/_aboutus.scss */
+.aboutus {
+  background-color: #d74680;
+  color: #3c4761;
+  text-align: center;
+  font-family: MyriadProRegular, sans-serif;
+}
+/* line 7, ../sass/layout/partials/_aboutus.scss */
+.aboutus h1 {
+  margin: 120px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 11, ../sass/layout/partials/_aboutus.scss */
+.aboutus h4 {
+  margin: 37px auto 10px auto;
+  text-transform: uppercase;
+}
+/* line 16, ../sass/layout/partials/_aboutus.scss */
+.aboutus h6 {
+  margin: 20px auto 80px auto;
+  width: 610px;
+}
+/* line 20, ../sass/layout/partials/_aboutus.scss */
+.aboutus .client-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 50px 0 0;
+  background-color: #3c4761;
+}
+/* line 28, ../sass/layout/partials/_aboutus.scss */
+.aboutus .client-review {
+  text-align: left;
+  font-size: 18px;
+  width: 400px;
 }
