@@ -5,45 +5,75 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: Titillium Web;
+  src: url(/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
 /* line 1, ../sass/layout/_base.scss */
-h1 {
-  font-size: 40px;
+body {
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
 }
 
-/* line 4, ../sass/layout/_base.scss */
+/* line 7, ../sass/layout/_base.scss */
+h1 {
+  font-size: 40px;
+  margin: 102px 0 0 0;
+  text-transform: uppercase;
+}
+
+/* line 13, ../sass/layout/_base.scss */
 h2 {
   font-size: 26px;
 }
 
-/* line 10, ../sass/layout/_base.scss */
+/* line 20, ../sass/layout/_base.scss */
 h4 {
   font-size: 24px;
+  margin: 60px auto 13px auto;
+  text-transform: uppercase;
 }
 
-/* line 13, ../sass/layout/_base.scss */
+/* line 25, ../sass/layout/_base.scss */
 h6 {
   font-size: 18px;
+  margin: 20px auto 80px auto;
 }
 
-/* line 17, ../sass/layout/_base.scss */
+/* line 29, ../sass/layout/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 32, ../sass/layout/_base.scss */
 .line {
-  border-bottom: 3px solid black;
+  border-bottom: 4px solid black;
   width: 86px;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
-/* line 22, ../sass/layout/_base.scss */
+/* line 37, ../sass/layout/_base.scss */
 input[type="button"] {
-  font-family: MyriadProRegular, sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 13px;
   text-transform: uppercase;
   display: block;
-  padding: 25px 90px;
-  background-color: #eb7d4b;
-  margin: 55px auto 140px auto;
+  padding: 21px 82px;
+  margin: 35px auto 70px auto;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   color: #fff;
+}
+
+/* line 51, ../sass/layout/_base.scss */
+input {
+  border-width: 0px;
+}
+
+/* line 54, ../sass/layout/_base.scss */
+textarea {
+  border-width: 0px;
 }
 
 /* line 1, ../sass/layout/_grid.scss */
@@ -1188,7 +1218,7 @@ input[type="button"] {
 /* line 3, ../sass/layout/partials/_logo.scss */
 .logo {
   color: #fff;
-  padding: 57px 0 0 60px;
+  padding: 57px 0 0 40px;
   width: 60px;
 }
 
@@ -1196,7 +1226,7 @@ input[type="button"] {
 .nav {
   height: 32px;
   float: right;
-  margin: 67px 0 0 0;
+  margin: 63px 0 0 0;
 }
 /* line 9, ../sass/layout/partials/_menu.scss */
 .nav ul li {
@@ -1205,6 +1235,7 @@ input[type="button"] {
 }
 /* line 12, ../sass/layout/partials/_menu.scss */
 .nav ul li a {
+  font-family: "Titillium Web", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
@@ -1225,11 +1256,17 @@ header {
 }
 /* line 4, ../sass/layout/partials/_haeder.scss */
 header h2 {
-  font-family: MyriadProRegular, sans-serif;
   font-size: 42.12px;
   margin: 132px auto 0 auto;
   text-align: center;
   width: 900px;
+  line-height: 112%;
+}
+/* line 12, ../sass/layout/partials/_haeder.scss */
+header input[type="button"] {
+  background-color: #eb7d4b;
+  margin: 55px auto 145px auto;
+  color: #fff;
 }
 
 /* line 1, ../sass/layout/partials/_services.scss */
@@ -1237,21 +1274,10 @@ header h2 {
   background-color: #17c2a4;
   color: #fff;
   text-align: center;
-  font-family: MyriadProRegular, sans-serif;
-}
-/* line 6, ../sass/layout/partials/_services.scss */
-.services h1 {
-  margin: 120px 0 0 0;
-  text-transform: uppercase;
-}
-/* line 10, ../sass/layout/partials/_services.scss */
-.services h4 {
-  margin: 60px auto 20px auto;
-  text-transform: uppercase;
 }
 /* line 15, ../sass/layout/partials/_services.scss */
 .services h6 {
-  margin: 20px auto 80px auto;
+  margin: 20px auto 56px auto;
   width: 610px;
 }
 /* line 19, ../sass/layout/partials/_services.scss */
@@ -1265,7 +1291,7 @@ header h2 {
 }
 /* line 27, ../sass/layout/partials/_services.scss */
 .services .services-icon {
-  height: 160px;
+  height: 115px;
   margin: 0 0 20px 0;
 }
 
@@ -1274,33 +1300,16 @@ header h2 {
   background-color: #e7f1f8;
   color: #3c4761;
   text-align: center;
-  font-family: MyriadProRegular, sans-serif;
 }
-/* line 6, ../sass/layout/partials/_team.scss */
-.team h1 {
-  margin: 120px 0 0 0;
-  text-transform: uppercase;
-}
-/* line 10, ../sass/layout/partials/_team.scss */
-.team h4 {
-  margin: 37px auto 10px auto;
-  text-transform: uppercase;
-}
-/* line 16, ../sass/layout/partials/_team.scss */
+/* line 17, ../sass/layout/partials/_team.scss */
 .team h6 {
-  margin: 20px auto 80px auto;
   width: 610px;
 }
-/* line 20, ../sass/layout/partials/_team.scss */
-.team span {
-  padding: 0 5px 15px 5px;
-  border-bottom: 3px solid #14a58c;
-}
-/* line 26, ../sass/layout/partials/_team.scss */
+/* line 27, ../sass/layout/partials/_team.scss */
 .team p:last-child {
   margin: 0 15px 130px 15px;
 }
-/* line 32, ../sass/layout/partials/_team.scss */
+/* line 33, ../sass/layout/partials/_team.scss */
 .team .team-avatar {
   width: 200px;
   height: 200px;
@@ -1308,17 +1317,17 @@ header h2 {
   margin: 0 auto;
   background-color: #3c4761;
 }
-/* line 39, ../sass/layout/partials/_team.scss */
+/* line 40, ../sass/layout/partials/_team.scss */
 .team .team-ured {
   color: #55c2e9;
   margin: 0 0 30px 0;
   text-transform: capitalize;
 }
-/* line 44, ../sass/layout/partials/_team.scss */
+/* line 45, ../sass/layout/partials/_team.scss */
 .team .social {
   margin: 20px 0 30px 0;
 }
-/* line 46, ../sass/layout/partials/_team.scss */
+/* line 47, ../sass/layout/partials/_team.scss */
 .team .social i {
   height: 32px;
   width: 32px;
@@ -1336,17 +1345,17 @@ header h2 {
   color: #3c4761;
   text-align: center;
 }
-/* line 6, ../sass/layout/partials/_skills.scss */
+/* line 7, ../sass/layout/partials/_skills.scss */
 .skills h1 {
   margin: 120px 0 0 0;
   text-transform: uppercase;
 }
-/* line 10, ../sass/layout/partials/_skills.scss */
+/* line 11, ../sass/layout/partials/_skills.scss */
 .skills h4 {
   margin: 60px auto 20px auto;
   text-transform: uppercase;
 }
-/* line 15, ../sass/layout/partials/_skills.scss */
+/* line 16, ../sass/layout/partials/_skills.scss */
 .skills h6 {
   margin: 20px auto 80px auto;
   width: 610px;
@@ -1358,29 +1367,23 @@ header h2 {
   color: #3c4761;
   text-align: center;
 }
-/* line 6, ../sass/layout/partials/_portfolio.scss */
-.portfolio h1 {
-  margin: 120px 0 0 0;
-  text-transform: uppercase;
-}
-/* line 10, ../sass/layout/partials/_portfolio.scss */
+/* line 11, ../sass/layout/partials/_portfolio.scss */
 .portfolio h6 {
-  margin: 20px auto 80px auto;
   width: 540px;
 }
-/* line 20, ../sass/layout/partials/_portfolio.scss */
+/* line 21, ../sass/layout/partials/_portfolio.scss */
 .portfolio .web {
   display: block;
 }
-/* line 23, ../sass/layout/partials/_portfolio.scss */
+/* line 24, ../sass/layout/partials/_portfolio.scss */
 .portfolio .apps {
   display: block;
 }
-/* line 26, ../sass/layout/partials/_portfolio.scss */
+/* line 27, ../sass/layout/partials/_portfolio.scss */
 .portfolio .icons {
   display: block;
 }
-/* line 29, ../sass/layout/partials/_portfolio.scss */
+/* line 30, ../sass/layout/partials/_portfolio.scss */
 .portfolio #myList div {
   display: none;
 }
@@ -1388,36 +1391,96 @@ header h2 {
 /* line 1, ../sass/layout/partials/_aboutus.scss */
 .aboutus {
   background-color: #d74680;
-  color: #3c4761;
+  color: #fff;
   text-align: center;
-  font-family: MyriadProRegular, sans-serif;
-}
-/* line 7, ../sass/layout/partials/_aboutus.scss */
-.aboutus h1 {
-  margin: 120px 0 0 0;
-  text-transform: uppercase;
-}
-/* line 11, ../sass/layout/partials/_aboutus.scss */
-.aboutus h4 {
-  margin: 37px auto 10px auto;
-  text-transform: uppercase;
 }
 /* line 16, ../sass/layout/partials/_aboutus.scss */
 .aboutus h6 {
-  margin: 20px auto 80px auto;
   width: 610px;
+  color: #f5bd93;
 }
-/* line 20, ../sass/layout/partials/_aboutus.scss */
+/* line 21, ../sass/layout/partials/_aboutus.scss */
 .aboutus .client-avatar {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   margin: 0 50px 0 0;
+  float: left;
   background-color: #3c4761;
 }
-/* line 28, ../sass/layout/partials/_aboutus.scss */
+/* line 29, ../sass/layout/partials/_aboutus.scss */
 .aboutus .client-review {
   text-align: left;
   font-size: 18px;
-  width: 400px;
+  width: 390px;
+  float: right;
+}
+
+/* line 1, ../sass/layout/partials/_contact.scss */
+.contact {
+  color: #fff;
+  background-color: #3c5499;
+}
+/* line 13, ../sass/layout/partials/_contact.scss */
+.contact h6 {
+  color: #f5bd93;
+}
+/* line 22, ../sass/layout/partials/_contact.scss */
+.contact .form {
+  margin: 0 120px;
+}
+/* line 24, ../sass/layout/partials/_contact.scss */
+.contact .form input[type='text'], .contact .form input[type='email'], .contact .form textarea {
+  border-radius: 5px;
+  background-color: #273a71;
+  color: #fff;
+}
+/* line 29, ../sass/layout/partials/_contact.scss */
+.contact .form input[type='text'], .contact .form input[type='email'] {
+  width: 415px;
+  padding: 20px;
+}
+/* line 34, ../sass/layout/partials/_contact.scss */
+.contact .form input[type='text'] {
+  float: left;
+}
+/* line 37, ../sass/layout/partials/_contact.scss */
+.contact .form input[type='email'] {
+  float: right;
+}
+/* line 40, ../sass/layout/partials/_contact.scss */
+.contact .form input[type="button"] {
+  background-color: #30bae7;
+}
+/* line 43, ../sass/layout/partials/_contact.scss */
+.contact .form textarea {
+  width: 100%;
+  margin: 25px 0 0 0;
+  padding: 20px;
+}
+
+/* line 1, ../sass/layout/partials/_footer.scss */
+footer {
+  padding: 60px 80px;
+  background-color: #344b8e;
+}
+/* line 6, ../sass/layout/partials/_footer.scss */
+footer ul li {
+  margin-right: 55px;
+  display: inline-block;
+}
+/* line 10, ../sass/layout/partials/_footer.scss */
+footer ul li a {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: "Titillium Web";
+}
+/* line 16, ../sass/layout/partials/_footer.scss */
+footer ul li :hover {
+  color: #30bae7;
+}
+/* line 20, ../sass/layout/partials/_footer.scss */
+footer ul :last-child {
+  margin-right: 0px;
 }

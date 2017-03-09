@@ -1,33 +1,56 @@
+body {
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+}
+
+
 h1 {
   font-size: $fs-h1;
+  margin: 102px 0 0 0;
+  text-transform: uppercase;
+
   }
 h2 {
   font-size: $fs-h2;
+
 }
 h3 {
   //font-size: $fs-h3;
 }
 h4 {
   font-size: $fs-h4;
+  margin: 60px auto 13px auto;
+  text-transform: uppercase;
 }
 h6 {
   font-size: $fs-h6;
+  margin: 20px auto 80px auto;
 }
-
+a {
+  text-decoration: none;
+}
 .line {
-  border-bottom: 3px solid black;
+  border-bottom: 4px solid black;
   width: 86px;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 input[type="button"]{
-  font-family: MyriadProRegular, sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-size: $fs-button-lg;
   text-transform: uppercase;
   display: block;
-  padding: 25px 90px;
-  background-color: $color-header-btn ;
-  margin: 55px auto 140px auto;
+  padding: 21px 82px;
+ // background-color: $color-header-btn ;
+  margin: 35px auto 70px auto;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   color: $white;
+}
+
+input {
+  border-width: 0px;
+}
+textarea {
+  border-width: 0px;
 }

@@ -2,26 +2,27 @@
   background-color: $color-brg-team;
   color: $color-team-font;
   text-align: center;
-  font-family: MyriadProRegular, sans-serif;
-  h1{
-    margin: 120px 0 0 0;
-    text-transform: uppercase;
-  }
-  h4{
-
-    margin: 37px auto 10px auto;
-    text-transform: uppercase;
-  }
+//  padding-bottom: 50px;
+ // font-family: MyriadProRegular, sans-serif;
+  //h1{
+  //  margin: 120px 0 0 0;
+  //  text-transform: uppercase;
+  //}
+  //h4{
+  //
+  //  margin: 37px auto 10px auto;
+  //  text-transform: uppercase;
+  //}
 
   h6 {
-    margin: 20px auto 80px auto;
+    //margin: 20px auto 80px auto;
     width: 610px;
   }
-  span{
-    padding: 0 5px 15px 5px;
-    //margin: 0 15px 15px 15px;
-    border-bottom: 3px solid #14a58c;
-  }
+  //span{
+  //  padding: 0 5px 15px 5px;
+  //  //margin: 0 15px 15px 15px;
+  //  border-bottom: 3px solid #14a58c;
+  //}
 
   p:last-child {
    // margin-bottom: 130px;
@@ -55,9 +56,5 @@
       background-color: #643a79;
     }
   }
-  .line {
-    //border-bottom: 3px solid black;
-    //width: 40px;
-    //margin: 0 auto;
-  }
+
 }

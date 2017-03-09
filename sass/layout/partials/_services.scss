@@ -2,18 +2,18 @@
   background-color: $color-services-bgr;
   color: $white;
   text-align: center;
-  font-family: MyriadProRegular, sans-serif;
-  h1{
-    margin: 120px 0 0 0;
-    text-transform: uppercase;
-  }
-  h4{
-    margin: 60px auto 20px auto;
-    text-transform: uppercase;
-  }
+ // font-family: MyriadProRegular, sans-serif;
+  //h1{
+  //  margin: 120px 0 0 0;
+  //  text-transform: uppercase;
+  //}
+  //h4{
+  //  margin: 60px auto 20px auto;
+  //  text-transform: uppercase;
+  //}
 
   h6 {
-    margin: 20px auto 80px auto;
+    margin: 20px auto 56px auto;
     width: 610px;
   }
   span{
@@ -25,7 +25,7 @@
     margin-bottom: 130px;
   }
   .services-icon{
-    height: 160px;
+    height: 115px;
     margin: 0 0 20px 0;
   }
 }
