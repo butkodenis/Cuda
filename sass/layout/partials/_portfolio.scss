@@ -9,7 +9,7 @@
   //  text-transform: uppercase;
   //}
   h6 {
-    //margin: 20px auto 80px auto;
+    margin: 20px auto 35px auto;
     width: 540px;
 
   }
@@ -24,9 +24,24 @@
   .apps {
     display: block;
   }
-  .icons {
-    display: block;
-  }
+  //.icons {
+  //  display: block;
+  //  background-color: aqua;
+  //}
   #myList div{ display:none;
+  }
+  .button-sm{
+    padding: 15px 30px ;
+    margin: 0 0 30px 0;
+    width: 85px;
+    border-radius: 5px;
+    background-color: $color-portfolio-btn-sm;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+    :active .web{
+      display: none;
+
+    }
   }
 }
