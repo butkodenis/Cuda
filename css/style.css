@@ -38,21 +38,22 @@ h4 {
 h6 {
   font-size: 18px;
   margin: 20px auto 80px auto;
+  text-transform: capitalize;
 }
 
-/* line 29, ../sass/layout/_base.scss */
+/* line 30, ../sass/layout/_base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 32, ../sass/layout/_base.scss */
+/* line 33, ../sass/layout/_base.scss */
 .line {
   border-bottom: 4px solid black;
   width: 86px;
   margin: 5px auto;
 }
 
-/* line 37, ../sass/layout/_base.scss */
+/* line 38, ../sass/layout/_base.scss */
 input[type="button"] {
   font-family: "Titillium Web", sans-serif;
   font-size: 13px;
@@ -67,12 +68,12 @@ input[type="button"] {
   border-width: 0 0 3px 0;
 }
 
-/* line 52, ../sass/layout/_base.scss */
+/* line 53, ../sass/layout/_base.scss */
 input {
   border-width: 0 0 0px 0;
 }
 
-/* line 56, ../sass/layout/_base.scss */
+/* line 57, ../sass/layout/_base.scss */
 textarea {
   border-width: 0px;
 }
@@ -1377,28 +1378,33 @@ header input[type="button"] {
 }
 /* line 21, ../sass/layout/partials/_portfolio.scss */
 .portfolio .web {
-  display: block;
+  display: none;
 }
 /* line 24, ../sass/layout/partials/_portfolio.scss */
 .portfolio .apps {
-  display: block;
+  display: none;
+}
+/* line 27, ../sass/layout/partials/_portfolio.scss */
+.portfolio .icons {
+  display: none;
 }
 /* line 31, ../sass/layout/partials/_portfolio.scss */
 .portfolio #myList div {
   display: none;
 }
-/* line 33, ../sass/layout/partials/_portfolio.scss */
+/* line 34, ../sass/layout/partials/_portfolio.scss */
 .portfolio .button-sm {
-  padding: 15px 30px;
-  margin: 0 0 30px 0;
+  padding: 8px 0;
+  margin: 0 10px 30px 0;
   width: 85px;
   border-radius: 5px;
   background-color: #ebc985l;
   text-transform: uppercase;
   display: inline-block;
+  border-width: 0 0 0 0;
   cursor: pointer;
 }
-/* line 42, ../sass/layout/partials/_portfolio.scss */
+/* line 44, ../sass/layout/partials/_portfolio.scss */
 .portfolio .button-sm :active .web {
   display: none;
 }
@@ -1436,38 +1442,38 @@ header input[type="button"] {
   color: #fff;
   background-color: #3c5499;
 }
-/* line 13, ../sass/layout/partials/_contact.scss */
+/* line 5, ../sass/layout/partials/_contact.scss */
 .contact h6 {
-  color: #f5bd93;
+  color: #fff;
 }
-/* line 22, ../sass/layout/partials/_contact.scss */
+/* line 13, ../sass/layout/partials/_contact.scss */
 .contact .form {
   margin: 0 120px;
 }
-/* line 24, ../sass/layout/partials/_contact.scss */
+/* line 15, ../sass/layout/partials/_contact.scss */
 .contact .form input[type='text'], .contact .form input[type='email'], .contact .form textarea {
   border-radius: 5px;
   background-color: #273a71;
   color: #fff;
 }
-/* line 29, ../sass/layout/partials/_contact.scss */
+/* line 20, ../sass/layout/partials/_contact.scss */
 .contact .form input[type='text'], .contact .form input[type='email'] {
   width: 415px;
   padding: 20px;
 }
-/* line 34, ../sass/layout/partials/_contact.scss */
+/* line 25, ../sass/layout/partials/_contact.scss */
 .contact .form input[type='text'] {
   float: left;
 }
-/* line 37, ../sass/layout/partials/_contact.scss */
+/* line 28, ../sass/layout/partials/_contact.scss */
 .contact .form input[type='email'] {
   float: right;
 }
-/* line 40, ../sass/layout/partials/_contact.scss */
+/* line 31, ../sass/layout/partials/_contact.scss */
 .contact .form input[type="button"] {
   background-color: #30bae7;
 }
-/* line 43, ../sass/layout/partials/_contact.scss */
+/* line 34, ../sass/layout/partials/_contact.scss */
 .contact .form textarea {
   width: 100%;
   margin: 25px 0 0 0;

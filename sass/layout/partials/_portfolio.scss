@@ -19,25 +19,27 @@
     //margin: 0 auto;
   }
   .web {
-    display: block;
+    display: none;
   }
   .apps {
-    display: block;
+    display: none;
   }
-  //.icons {
-  //  display: block;
-  //  background-color: aqua;
-  //}
+  .icons {
+    display: none;
+
+  }
   #myList div{ display:none;
+
   }
   .button-sm{
-    padding: 15px 30px ;
-    margin: 0 0 30px 0;
+    padding: 8px 0 ;
+    margin: 0 10px 30px 0;
     width: 85px;
     border-radius: 5px;
     background-color: $color-portfolio-btn-sm;
     text-transform: uppercase;
     display: inline-block;
+    border-width: 0 0 0 0;
     cursor: pointer;
     :active .web{
       display: none;
