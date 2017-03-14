@@ -1279,7 +1279,6 @@ header input[type="button"] {
 /* line 15, ../sass/layout/partials/_services.scss */
 .services h6 {
   margin: 20px auto 56px auto;
-  width: 610px;
 }
 /* line 19, ../sass/layout/partials/_services.scss */
 .services span {
@@ -1302,10 +1301,6 @@ header input[type="button"] {
   color: #3c4761;
   text-align: center;
   padding-bottom: 50px;
-}
-/* line 17, ../sass/layout/partials/_team.scss */
-.team h6 {
-  width: 610px;
 }
 /* line 27, ../sass/layout/partials/_team.scss */
 .team p:last-child {
@@ -1361,7 +1356,6 @@ header input[type="button"] {
 /* line 16, ../sass/layout/partials/_skills.scss */
 .skills h6 {
   margin: 20px auto 80px auto;
-  width: 610px;
 }
 
 /* line 1, ../sass/layout/partials/_portfolio.scss */
@@ -1373,7 +1367,6 @@ header input[type="button"] {
 /* line 11, ../sass/layout/partials/_portfolio.scss */
 .portfolio h6 {
   margin: 20px auto 35px auto;
-  width: 540px;
 }
 /* line 21, ../sass/layout/partials/_portfolio.scss */
 .portfolio .web {
@@ -1407,6 +1400,10 @@ header input[type="button"] {
 .portfolio .button-sm :active .web {
   display: none;
 }
+/* line 49, ../sass/layout/partials/_portfolio.scss */
+.portfolio img {
+  width: 100%;
+}
 
 /* line 1, ../sass/layout/partials/_aboutus.scss */
 .aboutus {
@@ -1414,12 +1411,11 @@ header input[type="button"] {
   color: #fff;
   text-align: center;
 }
-/* line 16, ../sass/layout/partials/_aboutus.scss */
+/* line 17, ../sass/layout/partials/_aboutus.scss */
 .aboutus h6 {
-  width: 610px;
   color: #f5bd93;
 }
-/* line 21, ../sass/layout/partials/_aboutus.scss */
+/* line 22, ../sass/layout/partials/_aboutus.scss */
 .aboutus .client-avatar {
   width: 100px;
   height: 100px;
@@ -1428,12 +1424,16 @@ header input[type="button"] {
   float: left;
   background-color: #787878;
 }
-/* line 29, ../sass/layout/partials/_aboutus.scss */
+/* line 30, ../sass/layout/partials/_aboutus.scss */
 .aboutus .client-review {
   text-align: left;
   font-size: 18px;
-  width: 390px;
+  width: 70%;
   float: right;
+}
+/* line 37, ../sass/layout/partials/_aboutus.scss */
+.aboutus .block-client-about {
+  margin: 0 auto;
 }
 
 /* line 1, ../sass/layout/partials/_contact.scss */
@@ -1457,7 +1457,7 @@ header input[type="button"] {
 }
 /* line 20, ../sass/layout/partials/_contact.scss */
 .contact .form input[type='text'], .contact .form input[type='email'] {
-  width: 415px;
+  width: 48%;
   padding: 20px;
 }
 /* line 25, ../sass/layout/partials/_contact.scss */
@@ -1503,4 +1503,34 @@ footer ul li :hover {
 /* line 20, ../sass/layout/partials/_footer.scss */
 footer ul :last-child {
   margin-right: 0px;
+}
+
+@media all and (max-width: 767px) {
+  /* line 7, ../sass/media/_media.scss */
+  .contact .form {
+    margin: 0 20px;
+  }
+
+  /* line 12, ../sass/media/_media.scss */
+  .aboutus .client-review {
+    width: 60%;
+  }
+  /* line 15, ../sass/media/_media.scss */
+  .aboutus .client-avatar {
+    margin: 0 20px 0 0;
+  }
+
+  /* line 20, ../sass/media/_media.scss */
+  header .nav ul li {
+    padding: 0 0;
+  }
+  /* line 22, ../sass/media/_media.scss */
+  header .nav ul li a {
+    padding: 10px 0px;
+  }
+
+  /* line 29, ../sass/media/_media.scss */
+  footer ul li {
+    width: 100%;
+  }
 }
